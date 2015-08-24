@@ -1,0 +1,19 @@
+{
+  "name": "workflow-github",
+  "version": "1.0.0",
+  "description": "Empty workflow basead on github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stvkoch/workflow-github.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stvkoch/workflow-github/issues"
+  },
+  "homepage": "https://github.com/stvkoch/workflow-github"
+}
