@@ -317,6 +317,12 @@ suggestions. Again, everything is centralized on GitHub: the pull-requests
 remain clean and focused on features; issues are kept for all side-
 discussions.
 
+
+### Links uteis
+
+  * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/index.html)
+
+
 * * *
 
 That is all I have written about it so far. I would love to collect opinions
