@@ -207,28 +207,31 @@ assim desejar. Tudo isso usando Markdown, oque torna super fácil.
 
 ## Revisando pull-request
 
-Once all checkboxes from the description have been checked, the name of the
-pull-request can be updated to `[RFR]` for _Ready For Review_. Ideally, the
-person checking the last bullet might want to ping someone to get the
-reviewing process started. Doing so avoid having a pull-request done but
-unmerged because nobody has reviewed it.
+Depois que todos os checkboxes da descrição estiver concluidos, o nome do
+pull-request pode ser actualizado para '[RFR]' (_Ready For Review_).
+Idealmente a pessoa que marcou a última tarefa como concluída deve solicitar a
+alguem que comece o processo de Revisão de código, esta solicitação pode ser
+feita criando um cometario e marcando (prefix @) alguem para o efeito.
+O pull-request (DONE) só estara concluído se alguem criar um cometario de
+revisão de código.
 
-To review a pull-request, we use GitHub inline comments in the _Files changed_
-tab. In there, we can comment any line to ask for modification. Adding a line
-comment notifies the owner of the pull-request so that he knows he has some
-re-working to do, and the comment shows up in the _Conversation_ tab.
+Para revisar um pull-request, nós adicionamos comentarios directamente nas
+linhas de códigos na tab de direfença entre ficheiros (_Files changed_). Nesta
+tab podemos comentar qualquer linha adicionando questões e sugerindo
+modificações. Adicinar uma linha de comentario notificará o proprietario do
+pull-request, assim ele saberá que há trabalho adicional a ser feito e o
+comentario aparecerá na tab _Conversation_.
 
-![GitHub inline comments are the ideal way for collaborating on code](http://hugogiraudel.com/images
-/github-as-a-workflow/05.png) GitHub inline comments are the ideal way for
-collaborating on code
+![GitHub inline comments é a maneira ideal de colaboração](http://hugogiraudel.com/images
+/github-as-a-workflow/05.png) GitHub inline comments é a maneira ideal de colaboração
 
-When updating a line that is the object of an inline comment, the latter
-disappears because it is not relevant anymore. Then, as comments get fixed,
-they disappear so the pull-request remains clean.
+Quando for actualizado a linha de código que é objecto do comentario o
+comentário desaparecerá pois não é mais relevante. então os comentarios que
+precisam de revisão desapareceram tornando o pull-request limpo.
 
-![When an inline comment has been taken care of, it disappears to avoid
-cluttering the diff](http://hugogiraudel.com/images/github-as-a-workflow/06.png) When an inline
-comment has been taken care of, it disappears to avoid cluttering the diff
+![Quando um comentario na linha de codigo for tratado desaparecera para evitar
+desordenar as diferenças entre versões](http://hugogiraudel.com/images/github-as-a-workflow/06.png) Quando um comentario na linha de codigo for tratado desaparecera para evitar desordenar as diferenças entre versões
+
 
 ## Merging the pull-request
 
