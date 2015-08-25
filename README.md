@@ -329,6 +329,10 @@ features; 'issues' é um bom lugar para manter qualquer discussão que deve
 passar ao lado.
 
 
+_Nota tradutor: podes usar as mensagens de commit para fechar os issues abertos.
+Por exemplo: `git commit -m 'fix stvkoch/workflow-github/issues/11'`_
+
+
 ### Links úteis
 
   * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/index.html)
