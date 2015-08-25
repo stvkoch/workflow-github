@@ -290,30 +290,33 @@ necessario.
 
 
 
-## Tip: using milestones
+## Dica: usando objectivos/marcos (milestones)
 
-Because GitHub is a platform for Git, it is a great tool to conserve a clean
-history of a project. One way to achieve this goal (if desired), would be to
-use milestones. To put it simply, on GitHub a milestone is a named bucket of
-issues/pull-requests, that can optionally have a description and a date.
 
-Applying this to a Scrum project could mean having a milestone per sprint
-(named after the number of the sprint), with a due date matching the one from
-the end of the sprint and the goals of the sprint in the description. All
-pull-requests (stories) would be tagged as part of the milestone.
+Porque GitHub é uma plataforma para Git, é uma grande ferramenta para conservar
+de forma limpa o historico do projecto. Uma maneira de alcançar seus objectivos
+(monitorar o progresso) é usar 'milestones'. Ponto de uma maneira simples,
+'milestones' no GitHub é o nome que se dá ao agrupamento de
+'issues'/'pull-request', adicionalmente pode ser atribuido uma descrição e data.
 
-![In this workflow, a milestone equals a sprint](http://hugogiraudel.com/images/github-
-as-a-workflow/10.png) In this workflow, a milestone equals a sprint
 
-While not very helpful for the develop because all open pull-requests are part
-of the current sprint anyway, it might be interesting to have this as an
-history, where all pull-requests are gathered in milestones corresponding to
-sprints.
+Aplicando isso ao um projecto Scrum significa podemos ter um 'milestone' por
+'sprint' (nome depois do numero do sprint) adicionalmente ter uma data
+vencimento e os objectivos do 'sprint' na descrição. Todas os 'pull-request'
+('stories') devem ser 'tagged' com um 'milestone'('sprint').
 
-![From the view, we can know to which sprint a story belongs, in case some of
-them are late to be resolved](http://hugogiraudel.com/images/github-as-a-workflow/11.png) From the
-view, we can know to which sprint a story belongs, in case some of them are
-late to be resolved
+
+![Neste fluxo de trabalho, um 'milestone' é igual a um Scrum sprint](http://hugogiraudel.com/images/github-
+as-a-workflow/10.png) Neste fluxo de trabalho, um 'milestone' é igual a um Scrum sprint
+
+Enquanto pode não ter grande utilidade para o desenvolvedor porque todos os
+pull-request fazer parte um sprint de qualquer forma, pode ser interessante ter
+isso na historia do projecto, onde todos os pull-request são acolhidos dentro
+de um milestone que corresponde a um 'sprint'
+
+![A partir da vista nós conseguimos saber qual o sprint que uma story pertence, no caso de algum ficar por ser resolvido](http://hugogiraudel.com/images/github-as-a-workflow/11.png) A partir da vista nós conseguimos saber qual o sprint que uma story pertence, no caso de algum ficar por ser resolvido
+
+
 
 ## Tip: using issues
 
