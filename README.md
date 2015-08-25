@@ -318,31 +318,36 @@ de um milestone que corresponde a um 'sprint'
 
 
 
-## Tip: using issues
+## Dica: usando problemas (issues)
 
-The fact that this workflow is heavily focused on pull-requests does not mean
-that GitHub issues are irrelevant. _Au contraire_! Issues can still be used
-for additional conversations, bug reports, and basically any non-feature-
-specific discussion.
 
-Also depending on the relationship with the client (internal or external),
-issues might be the good place for them to report problems, bugs and
-suggestions. Again, everything is centralized on GitHub: the pull-requests
-remain clean and focused on features; issues are kept for all side-
-discussions.
+
+O facto deste fluxo de trabalho ser focado em pull-request não significa que
+GitHub issues são irrelevantes. _Pelo contrário!_ 'Issues' conseguem ainda ser
+usados para conversação adicional, relatório de bugs e basicamente qualquer
+discussão que não pertenca a 'story'/'feature'.
+
+Também depende do relacionamento com o cliente (interno ou externo), 'issues'
+pode ser um bom lugar para reportar problemas, bugs e sugestões. Novamente,
+tudo é centralizado no GitHub: pull-requests permanecem centrado e focado nas
+features; 'issues' é um bom lugar para manter qualquer discussão que deve
+passar ao lado.
 
 
 ### Links uteis
 
   * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/index.html)
+  * [GitLab - Alternativa ao GitHub](https://about.gitlab.com/community/)
 
 
 * * *
 
-That is all I have written about it so far. I would love to collect opinions
+Nota original do autor:
+
+_That is all I have written about it so far. I would love to collect opinions
 and have feedback about this way of doing. Has anyone ever tried it? How does
 it perform? How does it scale? What are the flaws? What are the positive
-effects? Cheers!
+effects? Cheers!_
 
 Published under: github, workflow, and process.
 
@@ -353,4 +358,7 @@ Published under: github, workflow, and process.
   * [RSS](/rss/)
 
 (C) 2012-2015 Hugo Giraudel.
+
+Tradução portugues: [Steven Koch](https://github.com/stvkoch)
+
 
