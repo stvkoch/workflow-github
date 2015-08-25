@@ -55,7 +55,7 @@ requests](https://help.github.com/articles/using-pull-requests/). Embora a
 primeira vista possa parecer um pouco medonho, esta abordagem pode trazer um
 monte de benefícios, tal como iremos investigar nas próximas sessões.
 
-Grosseiramente, a ideia é começarmos a
+Grosseiramente, a ideia é começarmos o
 [sprint](http://scrummethodology.com/scrum-sprint/), criado N pull-request
 para todas as nossas [user stories](http://scrummethodology.com/scrum-user-
 stories/). Na descrição do pull-request, nós escreveremos a lista de tarefas no
