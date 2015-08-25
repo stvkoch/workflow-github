@@ -1,7 +1,7 @@
 ### Tradução livre do artigo http://hugogiraudel.com/2015/08/13/github-as-a-workflow/
 
-Nota: Há termos que estão propositadamente sem serem traduzidos, penso que o
-termo traduzido dificulta o entendimento do significado da expressão.
+Nota: Há termos que estão propositadamente sem serem traduzidos, penso que
+em alguns casos o termo traduzido dificulta o entendimento do significado da expressão.
 
 ---
 
@@ -13,12 +13,12 @@ dos nossos Scrum Master em Edenspiekermann. É assumido que o leitor tenha noç�
 básicas sobre desenvolvimento Ágil como
 [Agile](https://en.wikipedia.org/wiki/Agile_software_development) e
 [Scrum](https://en.wikipedia.org/wiki/Scrum_\(software_development\)). Se não
-for o seu caso, ainda assim se benificiará da leitura desde artigo mesmo que
-falte alguns pontos chaves para o pleno entendimento. É desejavel que tenha
+for o seu caso, ainda assim se beneficiará da leitura desde artigo mesmo que
+falte alguns pontos chaves para o pleno entendimento. É desejável que tenha
 noções do conceito de [Gitflow](https://www.atlassian.com/git/tutorials/
 comparing-workflows/gitflow-workflow/) workflow, embora não dependa dele.
 
-Neste pequeno documento, eu tento descrever oque seria, para mim, um ótimo fluxo
+Neste pequeno documento, eu tento descrever o que seria, para mim, um ótimo fluxo
 de trabalho usando o [GitHub](https://github.com) como "peça chave" em vez de
 ter uma colecção de ferramentas e commandos. É óbvio que este ponto-de-vista é
 centrado na ótica do desenvolvedor e pode não se enquadrar em todas as equipas
@@ -63,7 +63,7 @@ formato Markdown [GitHub support for
 checkboxes](https://github.com/blog/1375%0A-task-lists-in-gfm-issues-pulls-
 comments). Os desenvolvedores irão enviar seus commits para o branch do
 pull-request e progressivamente irão concluir as tarefas listadas no
-pull-request. Uma vez as tarefas concluidas é hora de revisar e mesclar a branch
+pull-request. Uma vez as tarefas concluídas é hora de revisar e mesclar a branch
 
 ![Task list github flavours](https://camo.githubusercontent.com/09cbc14d7458e0e2c52f1a66fb8890152da978c9/68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f3138322f35343631302f66326530656131382d356139612d313165322d383236642d6635663562663033663032652e676966)
 
@@ -75,10 +75,10 @@ pull-request. Uma vez as tarefas concluidas é hora de revisar e mesclar a branc
 ## Qual o problema que resolve
 
   * O código, revisões, 'stories' e as tarefas estão centralizadas em um único lugar, fazendo com que seja fácil pular de um tópico para outro.
-  * [ScrumDo](https://app.scrumdo.com) e outras ferramentas nem sempre são os melhores lugares para discussões e cometários, enquanto o Github é actualmente feito para isso.
+  * [ScrumDo](https://app.scrumdo.com) e outras ferramentas nem sempre são os melhores lugares para discussões e comentários, enquanto o Github é actualmente feito para isso.
   * GitHub tem um serviço de notificação por email, que é útil para saber andamento do projecto e onde é preciso envolvimento.
-  * GitHub tem diversos recursos adicionais, como por exemplo, labels, suporte a Markdown, user assignments e interações com códigos oque faz com que seja uma otima ferramente para gestão de projecto.
-  * Bonus: [Slack](http://slack.com) tem intergração com o GitHub, fazendo com que seus processos seja mais fluídos.
+  * GitHub tem diversos recursos adicionais, como por exemplo, labels, suporte a Markdown, user assignments e interações com códigos oque faz com que seja uma ótima ferramenta para gestão de projecto.
+  * Bonus: [Slack](http://slack.com) tem integração com o GitHub, fazendo com que seus processos seja mais fluídos.
 
 
 
@@ -103,8 +103,8 @@ na listagem de pull-requests.
 
 
 Para todas as interações que envolvem desenvolvimento, criar um nome de 'branch'
-que represneta uma 'story' e abrir um 'pull-request' desta branch para a principal.
-Quando se adere a convesão 
+que representa uma 'story' e abrir um 'pull-request' desta branch para a principal.
+Quando se adere a conversão 
 [Gitflow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-
 workflow/), a 'branch' principal chamamos 'develop', e as 'branches' que
 representam uma 'story' devem começar com 'feature/' (am alguns casos 'fix/' ou
@@ -115,33 +115,33 @@ do 'slug' da 'story'. (ex: 'feature/42-basic-teaser').
 Abrir um pull-request pode ser feito directamente no GitHub, sem precisar clonar
 o projecto localmente ou mesmo ter grande conhecimento do Git. Mas somente
 pode ser feito quando se tem algo para comparar entre branch
-(quando alguem fez um push).
+(quando alguém fez um push).
 Isso significa que não é possível abrir um pull-request entre dois branchs
-idênticos ou branch que foram mesclados e ambos estão no repositorio remoto.
+idênticos ou branch que foram mesclados e ambos estão no repositório remoto.
 
 
 Para contornar este problema, temos duas opções: Esperar que a 'story' seja
-inicialiada por alguem, pelo menos o commit, e então teremos algo para comparar
+inicializadas por alguém, pelo menos o commit, e então teremos algo para comparar
 entre a 'story' branch e a branch principal (develop). Embora não seja o melhor
-metodo, a idéia é nós termos todas as 'stores' criadas logo no inicio do
-'sprint' e os respectivos pull-request abertos directmente. Para que isso seja
-possivel podemos criar commits vazios, tal como:
+método, a idéia é nós termos todas as 'stores' criadas logo no inicio do
+'sprint' e os respectivos pull-request abertos directamente. Para que isso seja
+possível podemos criar commits vazios, tal como:
 
     
     
     # Criando um branch para a story
     git checkout -b feature/42-basic-teaser
     
-    # Adicionando um commit vazio (com um significativo nome) para que seja possivel criar um pull-request
+    # Adicionando um commit vazio (com um significativo nome) para que seja possível criar um pull-request
     git commit --allow-empty -m "Feature 42: Basic teaser component"
 
 O objectivo desde 'commit' é inicializar o 'branch' e a respectiva 'feature'
-para que possa ser possivel criar o 'pull-request' no GitHub.
+para que possa ser possível criar o 'pull-request' no GitHub.
 
-A partir desde ponto, indo para a página inicial do repositorio no GitHub, será
-listado botões em verdes com alguns branchs condidatas a criação de
+A partir desde ponto, indo para a página inicial do repositório no GitHub, será
+listado botões em verdes com alguns branchs candidatas a criação de
 pull-request.
-Então para criar um 'pull-request' apartir de uma 'branch' relevante para o
+Então para criar um 'pull-request' a partir de uma 'branch' relevante para o
 branch principal (develop) seria simplesmente clicar no respectivo botão verde.
 É tão simples quanto isso. Detalharemos mais na próxima sessão.
 
@@ -149,17 +149,17 @@ branch principal (develop) seria simplesmente clicar no respectivo botão verde.
 
 ## Nomeando um pull-request
 
-Nomeie o pull-request depois da feture name, assim que for assignado para alguem
+Nomeie o pull-request depois da feture name, assim que for assinado para alguém
 o pull-request podes prefixar com [WIP] para indicar _Work In Progress_.
 Depois podes alterar para `[RFR]` _Ready For Review_  quando as tarefas 
 estiverem concluidas (veja revisando os pull-quests). Se o pull-request for
 especifico para ser mesclado ou enviado para produção, voce pode alterar com
-`[RFM]` (for _Ready For Merging_) adicionando um comentario de aprovação que
+`[RFM]` (for _Ready For Merging_) adicionando um comentário de aprovação que
 indicara a revisão e que é seguro fazer a mesclagem.
 
-_Nota: dependendo como usas os labels do GitHub, podes tambem abandonar a ideia
+_Nota: dependendo como usas os labels do GitHub, podes também abandonar a ideia
 a cima e usar 'labels' 'WIP', 'RFR' e 'RFM'. Eu prefiro guardar os 'labels' para
-outro proposito e colocar o estado no nome do pull-request mas isso é algo que
+outro propósito e colocar o estado no nome do pull-request mas isso é algo que
 diz respeito a você._
 
 ## Adicionando uma descrição
@@ -178,13 +178,13 @@ parecido com:
 
 ![A descrição do pull-request contem as tarefas que devem ser realizadas para concluir a 'feature'](http://hugogiraudel.com/images/github-as-a-workflow/02.png) A descrição do pull-request contêm as tarefas que devem ser realizadas para concluir a 'feature'
 
-Como todos os intervenientes no projecto fazem parte da organização por tras do
+Como todos os intervenientes no projecto fazem parte da organização no
 projecto no GitHub, qualquer um consegue editar/deletar qualquer comentário,
 então qualquer tem a habilidade de adicionar novas tarefas a descrição se assim
 achar necessário.
 
-_Note: 'GitHub Flavoured Markdown' converterá automagicamente `[ ]` em um
-checkbox desabilitado e `[x]` em um checkbox habilitado. E tambem guardar o
+_Note: 'GitHub Flavoured Markdown' converterá automaticamente `[ ]` em um
+checkbox desabilitado e `[x]` em um checkbox habilitado. E também guardar o
 estado do checkbox assim que ele for alterado._
 
 ![A descrição do PR contem checkboxes que podem ser habilitados para mostrar o actual progresso](http://hugogiraudel.com/images/github-as-a-workflow/03.png) A descrição do PR contem checkboxes que podem ser habilitados para mostrar o actual progresso.
@@ -197,8 +197,8 @@ estado do checkbox assim que ele for alterado._
 
 Os comentários em um pull-request podem ser usados para discutir detalhes da
 'story' ou informações sobre tarefas específicas. Podemos adicionar
-questões, solicitar releventes colaborações prefixisando com '@' os nomes de
-utilizadores do GitHub, incluir codigos, citações, imagens e muito mais se
+questões, solicitar relevantes colaborações prefixando com '@' os nomes de
+utilizadores do GitHub, incluir códigos, citações, imagens e muito mais se
 assim desejar. Tudo isso usando Markdown, oque torna super fácil.
 
 ![Comentários são usados para discutir algumas preocupações e fazer perguntas](http://hugogiraudel.com/images/github-as-a-workflow/04.png) Comentários são usados para discutir algumas preocupações e fazer perguntas.
@@ -206,43 +206,43 @@ assim desejar. Tudo isso usando Markdown, oque torna super fácil.
 
 ## Revisando pull-request
 
-Depois que todos os checkboxes da descrição estiver concluidos, o nome do
+Depois que todos os checkboxes da descrição estiver concluídos, o nome do
 pull-request pode ser actualizado para '[RFR]' (_Ready For Review_).
 Idealmente a pessoa que marcou a última tarefa como concluída deve solicitar a
-alguem que comece o processo de Revisão de código, esta solicitação pode ser
-feita criando um cometario e marcando (prefix @) alguem para o efeito.
-O pull-request (DONE) só estara concluído se alguem criar um cometario de
+alguém que comece o processo de Revisão de código, esta solicitação pode ser
+feita criando um comentário e marcando (prefix @) alguém para o efeito.
+O pull-request (DONE) só estará concluído se alguém criar um comentário de
 revisão de código.
 
-Para revisar um pull-request, nós adicionamos comentarios directamente nas
-linhas de códigos na tab de direfença entre ficheiros (_Files changed_). Nesta
+Para revisar um pull-request, nós adicionamos comentários directamente nas
+linhas de códigos na tab de diferença entre ficheiros (_Files changed_). Nesta
 tab podemos comentar qualquer linha adicionando questões e sugerindo
-modificações. Adicinar uma linha de comentario notificará o proprietario do
+modificações. Adicionar uma linha de comentário notificará o proprietário do
 pull-request, assim ele saberá que há trabalho adicional a ser feito e o
 comentario aparecerá na tab _Conversation_.
 
 ![GitHub inline comments é a maneira ideal de colaboração](http://hugogiraudel.com/images/github-as-a-workflow/05.png) GitHub inline comments é a maneira ideal de colaboração
 
-Quando for actualizado a linha de código que é objecto do comentario o
-comentário desaparecerá pois não é mais relevante. então os comentarios que
+Quando for actualizado a linha de código que é objecto do comentário o
+comentário desaparecerá pois não é mais relevante. então os comentários que
 precisam de revisão desapareceram tornando o pull-request limpo.
 
-![Quando um comentario na linha de codigo for tratado desaparecera para evitar
-desordenar as diferenças entre versões](http://hugogiraudel.com/images/github-as-a-workflow/06.png) Quando um comentario na linha de codigo for tratado desaparecera para evitar desordenar as diferenças entre versões
+![Quando um comentário na linha de código for tratado desaparecera para evitar
+desordenar as diferenças entre versões](http://hugogiraudel.com/images/github-as-a-workflow/06.png) Quando um comentário na linha de código for tratado desaparecera para evitar desordenar as diferenças entre versões
 
 
 ## Mesclando um pull-request
 
-Uma vez que o code review estiver concluido, o pull-request pode ser mesclado
+Uma vez que o code review estiver concluído, o pull-request pode ser mesclado
 com o branch principal. Se tudo estiver OK, isso pode ser feito directamente no
-GitHub mas esta é uma acção que tem a potencialidade de gerar conflictos entre
+GitHub mas esta é uma acção que tem a potencialidade de gerar conflitos entre
 versões, noque é preciso fazer um 'rebase' para sincronizar com o branch
-principal ou mesclar manualmente. Qualquer um pode fazer isso mas o proprietario
+principal ou mesclar manualmente. Qualquer um pode fazer isso mas o proprietário
 do pull-request pode ser a pessoa mais indicada para isso.
 
 
 _Note: Para manter um historio de mensagens de commits limpo e relevante é
-aconcelhavel ter as messagens de commit escrita de forma clara e significativa.
+aconselhável ter as mensagens de commit escrita de forma clara e significativa.
 Apesar desde assunto não ser especifico da metodologia, eu penso que é
 importante para reforça-lo aqui_
 
@@ -251,23 +251,23 @@ importante para reforça-lo aqui_
 
 Labels podem ser muito úteis para adicionar informações extra em um
 pull-request no GitHub. Eles são mostrados em uma lista particularmente util
-fazendo com que seja facil e obvio percorrer os pull-request abertos.
+fazendo com que seja fácil e obvio percorrer os pull-request abertos.
 
-Não há limites de quantidade de labels que um projecto pode ter. Tambem é
-possivel associar uma cor junto com um pequeno, mas poderoso, sistema de
-nomeclatura. Labels podem ter nomes como  _Design_, _Front-end_, _Back-end_, ou
+Não há limites de quantidade de labels que um projecto pode ter. Também é
+possível associar uma cor junto com um pequeno, mas poderoso, sistema de
+nomenclature. Labels podem ter nomes como  _Design_, _Front-end_, _Back-end_, ou
 mesmo _Waiting for info_, _Waiting for review_ ou _To be started_. Voce nomeia
 isso.
 
-![Labels são usado para criar um sistema de nomeclatura](http://hugogiraudel.com/images/github-as-a-workflow/07.png) Labels são usado para criar um sistema de nomeclatura
+![Labels são usado para criar um sistema de nomenclatura](http://hugogiraudel.com/images/github-as-a-workflow/07.png) Labels são usado para criar um sistema de nomenclatura
 
 Em projectos que envolvem diferentes tipos de equipa, tal como front-end,
 back-end, design, devops. É recomendado ter os nomes das equipas como labels
 para que cada equipa consiga cuidar das 'stories' que estão trabalhando.
 
 
-![Labels are applied to stories to be able to filter them as well as givin
-more information from the PR view directly](http://hugogiraudel.com/images/github-as-a-workflow/08.png) Labels são aplicadas a 'stories' para que seja possivel
+![Labels são aplicadas a 'stories' para que seja possível
+filtrar, bem como dar mais informações aos pull-requests](http://hugogiraudel.com/images/github-as-a-workflow/08.png) Labels são aplicadas a 'stories' para que seja possível
 filtrar, bem como dar mais informações aos pull-requests
 
 
@@ -290,10 +290,10 @@ necessario.
 
 
 Porque GitHub é uma plataforma para Git, é uma grande ferramenta para conservar
-de forma limpa o historico do projecto. Uma maneira de alcançar seus objectivos
+de forma limpa o histórico do projecto. Uma maneira de alcançar seus objectivos
 (monitorar o progresso) é usar 'milestones'. Ponto de uma maneira simples,
 'milestones' no GitHub é o nome que se dá ao agrupamento de
-'issues'/'pull-request', adicionalmente pode ser atribuido uma descrição e data.
+'issues'/'pull-request', adicionalmente pode ser atribuído uma descrição e data.
 
 
 Aplicando isso ao um projecto Scrum significa podemos ter um 'milestone' por
@@ -320,7 +320,7 @@ de um milestone que corresponde a um 'sprint'
 O facto deste fluxo de trabalho ser focado em pull-request não significa que
 GitHub issues são irrelevantes. _Pelo contrário!_ 'Issues' conseguem ainda ser
 usados para conversação adicional, relatório de bugs e basicamente qualquer
-discussão que não pertenca a 'story'/'feature'.
+discussão que não pertença a 'story'/'feature'.
 
 Também depende do relacionamento com o cliente (interno ou externo), 'issues'
 pode ser um bom lugar para reportar problemas, bugs e sugestões. Novamente,
@@ -329,7 +329,7 @@ features; 'issues' é um bom lugar para manter qualquer discussão que deve
 passar ao lado.
 
 
-### Links uteis
+### Links úteis
 
   * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/index.html)
   * [GitLab - Alternativa ao GitHub](https://about.gitlab.com/community/)
