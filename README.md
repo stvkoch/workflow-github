@@ -27,19 +27,20 @@ e projectos.
 Dado que o artigo pode ser um pouco longo, abaixo há um indexe de conteúdo para
 que consigas ir directo a secção que desejas:
 
-  1. Introdução
-  2. Qual o problema que resolve
-  3. Qual o problema que isso adiciona
-  4. Criando um pull-request
-  5. Nomeando um pull-request
-  6. Adicionando uma descrição
-  7. Usando comentários
-  8. Revisando pull-request
-  9. Mesclando pull-request
-  10. Dica: usando labels
-  11. Dica: usando atribuições(assignees)
-  12. Dica: usando objectivos (milestones)
-  13. Dica: usando problemas (issues)
+  1. [Introdução](#introdução)
+  2. [Qual o problema que resolve](#qual-o-problema-que-resolve)
+  3. [Qual o problema que isso adiciona](#qual-o-problema-que-isso-adiciona)
+  4. [Criando um pull-request](#criando-um-pull-request)
+  5. [Nomeando um pull-request](#nomeando-um-pull-request)
+  6. [Adicionando uma descrição](#adicionando-uma-descrição)
+  7. [Usando comentários](#usando-comentários)
+  8. [Revisando pull-request](#revisando-pull-request)
+  9. [Mesclando pull-request](#mesclando-um-pull-request)
+  10. [Dica: usando labels](#dica-usando-labels)
+  11. [Dica: usando atribuições(assignees)](#dica-usando-atribuições-assignees)
+  12. [Dica: usando objectivos (milestones)](#dica-usando-objectivosmarcos-milestones)
+  13. [Dica: usando problemas (issues)](#dica-usando-problemas-issues)
+  14. [Links úteis](#links-uteis)
 
 
 
@@ -98,8 +99,7 @@ listadas na descrição do pull-request. A boa noticia é que o Github é
 inteligente suficiente e mostra o progresso/andamento da 'feature' directamente
 na listagem de pull-requests.
 
-![The progress is shown directly in the PR view](http://hugogiraudel.com/images/github-
-as-a-workflow/01.png) O progresso é mostrado directamente na listagem de PR
+![The progress is shown directly in the PR view](http://hugogiraudel.com/images/github-as-a-workflow/01.png) O progresso é mostrado directamente na listagem de PR
 
 
 Para todas as interações que envolvem desenvolvimento, criar um nome de 'branch'
@@ -222,8 +222,7 @@ modificações. Adicinar uma linha de comentario notificará o proprietario do
 pull-request, assim ele saberá que há trabalho adicional a ser feito e o
 comentario aparecerá na tab _Conversation_.
 
-![GitHub inline comments é a maneira ideal de colaboração](http://hugogiraudel.com/images
-/github-as-a-workflow/05.png) GitHub inline comments é a maneira ideal de colaboração
+![GitHub inline comments é a maneira ideal de colaboração](http://hugogiraudel.com/images/github-as-a-workflow/05.png) GitHub inline comments é a maneira ideal de colaboração
 
 Quando for actualizado a linha de código que é objecto do comentario o
 comentário desaparecerá pois não é mais relevante. então os comentarios que
@@ -261,8 +260,7 @@ nomeclatura. Labels podem ter nomes como  _Design_, _Front-end_, _Back-end_, ou
 mesmo _Waiting for info_, _Waiting for review_ ou _To be started_. Voce nomeia
 isso.
 
-![Labels são usado para criar um sistema de nomeclatura](http://hugogiraudel.com/images/github-
-as-a-workflow/07.png) Labels são usado para criar um sistema de nomeclatura
+![Labels são usado para criar um sistema de nomeclatura](http://hugogiraudel.com/images/github-as-a-workflow/07.png) Labels são usado para criar um sistema de nomeclatura
 
 Em projectos que envolvem diferentes tipos de equipa, tal como front-end,
 back-end, design, devops. É recomendado ter os nomes das equipas como labels
@@ -270,8 +268,7 @@ para que cada equipa consiga cuidar das 'stories' que estão trabalhando.
 
 
 ![Labels are applied to stories to be able to filter them as well as givin
-more information from the PR view directly](http://hugogiraudel.com/images/github-
-as-a-workflow/08.png) Labels são aplicadas a 'stories' para que seja possivel
+more information from the PR view directly](http://hugogiraudel.com/images/github-as-a-workflow/08.png) Labels são aplicadas a 'stories' para que seja possivel
 filtrar, bem como dar mais informações aos pull-requests
 
 
@@ -306,8 +303,7 @@ vencimento e os objectivos do 'sprint' na descrição. Todas os 'pull-request'
 ('stories') devem ser 'tagged' com um 'milestone'('sprint').
 
 
-![Neste fluxo de trabalho, um 'milestone' é igual a um Scrum sprint](http://hugogiraudel.com/images/github-
-as-a-workflow/10.png) Neste fluxo de trabalho, um 'milestone' é igual a um Scrum sprint
+![Neste fluxo de trabalho, um 'milestone' é igual a um Scrum sprint](http://hugogiraudel.com/images/github-as-a-workflow/10.png) Neste fluxo de trabalho, um 'milestone' é igual a um Scrum sprint
 
 Enquanto pode não ter grande utilidade para o desenvolvedor porque todos os
 pull-request fazer parte um sprint de qualquer forma, pode ser interessante ter
