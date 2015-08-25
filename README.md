@@ -233,17 +233,21 @@ precisam de revisão desapareceram tornando o pull-request limpo.
 desordenar as diferenças entre versões](http://hugogiraudel.com/images/github-as-a-workflow/06.png) Quando um comentario na linha de codigo for tratado desaparecera para evitar desordenar as diferenças entre versões
 
 
-## Merging the pull-request
+## Mesclando um pull-request
 
-Once the review has been done, the pull-request can be merged into the main
-branch. If everything is fine, it should be mergeable from GitHub directly but
-sometimes there are potential conflicts so we need to either rebase the branch
-to synchronize it with the main branch or merge it manually. Anybody can do
-it, but the pull-request owner is probably the best person to do it.
+Uma vez que o code review estiver concluido, o pull-request pode ser mesclado
+com o branch principal. Se tudo estiver OK, isso pode ser feito directamente no
+GitHub mas esta é uma acção que tem a potencialidade de gerar conflictos entre
+versões, noque é preciso fazer um 'rebase' para sincronizar com o branch
+principal ou mesclar manualmente. Qualquer um pode fazer isso mas o proprietario
+do pull-request pode ser a pessoa mais indicada para isso.
 
-_Note: in order to keep a relevant and clean commit history, it would be wise
-to keep commit messages clear and meaningful. While this is not specific to
-this methodology, I think it is important enough to stress it._
+
+_Note: Para manter um historio de mensagens de commits limpo e relevante é
+aconcelhavel ter as messagens de commit escrita de forma clara e significativa.
+Apesar desde assunto não ser especifico da metodologia, eu penso que é
+importante para reforça-lo aqui_
+
 
 ## Tip: using labels
 
