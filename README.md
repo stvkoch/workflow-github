@@ -249,29 +249,31 @@ Apesar desde assunto não ser especifico da metodologia, eu penso que é
 importante para reforça-lo aqui_
 
 
-## Tip: using labels
+## Dica: usando labels
 
-Labels can be very helpful to add extra pieces of information to a pull-
-request on GitHub. They come in particularly handy as they show up in the list
-view, making it visible and obvious for everybody scanning through the open
-pull-requests.
+Labels podem ser muito úteis para adicionar informações extra em um
+pull-request no GitHub. Eles são mostrados em uma lista particularmente util
+fazendo com que seja facil e obvio percorrer os pull-request abertos.
 
-There is no limit regarding the amount of labels a project can have. They also
-are associated with colors, building a little yet powerful nomenclaturing
-system. Labels can be something such as _Design_, _Front-end_, _Back-end_, or
-even _Waiting for info_, _Waiting for review_ or _To be started_. You name it.
+Não há limites de quantidade de labels que um projecto pode ter. Tambem é
+possivel associar uma cor junto com um pequeno, mas poderoso, sistema de
+nomeclatura. Labels podem ter nomes como  _Design_, _Front-end_, _Back-end_, ou
+mesmo _Waiting for info_, _Waiting for review_ ou _To be started_. Voce nomeia
+isso.
 
-![Labels are used to create a nomenclature](http://hugogiraudel.com/images/github-
-as-a-workflow/07.png) Labels are used to create a nomenclature
+![Labels são usado para criar um sistema de nomeclatura](http://hugogiraudel.com/images/github-
+as-a-workflow/07.png) Labels são usado para criar um sistema de nomeclatura
 
-On a project involving design, front-end, back-end and devops teams, I would
-recommend having these team names as labels so each team is aware of the
-stories they have to be working on.
+Em projectos que envolvem diferentes tipos de equipa, tal como front-end,
+back-end, design, devops. É recomendado ter os nomes das equipas como labels
+para que cada equipa consiga cuidar das 'stories' que estão trabalhando.
+
 
 ![Labels are applied to stories to be able to filter them as well as givin
 more information from the PR view directly](http://hugogiraudel.com/images/github-
-as-a-workflow/08.png) Labels are applied to stories to be able to filter them
-as well as givin more information from the PR view directly
+as-a-workflow/08.png) Labels são aplicadas a 'stories' para que seja possivel
+filtrar, bem como dar mais informações aos pull-requests
+
 
 ## Tip: using assignees
 
