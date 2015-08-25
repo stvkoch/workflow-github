@@ -201,8 +201,7 @@ questões, solicitar releventes colaborações prefixisando com '@' os nomes de
 utilizadores do GitHub, incluir codigos, citações, imagens e muito mais se
 assim desejar. Tudo isso usando Markdown, oque torna super fácil.
 
-![Comentários são usados para discutir algumas preocupações e fazer perguntas](http://hugogiraudel.com/images
-/github-as-a-workflow/04.png) Comentários são usados para discutir algumas preocupações e fazer perguntas.
+![Comentários são usados para discutir algumas preocupações e fazer perguntas](http://hugogiraudel.com/images/github-as-a-workflow/04.png) Comentários são usados para discutir algumas preocupações e fazer perguntas.
 
 
 ## Revisando pull-request
