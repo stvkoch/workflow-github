@@ -275,18 +275,20 @@ as-a-workflow/08.png) Labels são aplicadas a 'stories' para que seja possivel
 filtrar, bem como dar mais informações aos pull-requests
 
 
-## Tip: using assignees
+## Dica: usando atribuições (assignees)
 
-More often than not, a story is mostly for one person. Or when several actors
-have to get involved in a story, it usually happens one after the other (the
-designer does the mockup, then the front-end developer does the component,
-then the back-end developer integrates it in the process, etc.). Because of
-this, it might be interesting to _assign_ the pull-request to the relevant
-actor on GitHub, and change this assignment when needed.
+Mais frequentemente que se possa  dizer que não, uma 'story' é geralmente para
+uma pessoa. Ou mesmo quando mais de uma pessoa é envolvida a uma 'story' isso
+ocorre geralmente um depois do outro(o designer faz o mockup, o front-end
+desenvolve o componente, o back-end integra em um processo, etc...). Por causa
+disso é interessante atribuir o pull-request para que um dos interveniente possa
+tornar a story mais próxima da conclusão e depois atribuir a outro quando for
+necessario.
 
-![Assignees are a good way of knowing who works on what from the PR
-view](http://hugogiraudel.com/images/github-as-a-workflow/09.png) Assignees are a good way of knowing
-who works on what from the PR view
+
+![Atribuições são uma boa maneira de conhecer quem trabalha noque](http://hugogiraudel.com/images/github-as-a-workflow/09.png) Atribuições são uma boa maneira de conhecer quem trabalha noque
+
+
 
 ## Tip: using milestones
 
